@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 @ComponentScan("com.sn.tonux")
 public class ApplicationConfig {
 
-
     @Bean(name="userService")
     public UserService getTopoService() {
         return new UserServiceImpl();
